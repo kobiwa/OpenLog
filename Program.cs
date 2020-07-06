@@ -20,8 +20,6 @@ namespace prjOpenLog {
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
 			Application.Run(new frmMain(sMyCall));
-
-
 		}
 
 		[System.Runtime.InteropServices.DllImport("user32.dll")]
